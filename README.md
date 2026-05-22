@@ -9,6 +9,8 @@ The API performs CRUD operations on books.
 ## Technologies Used
 - Node.js
 - Express.js
+- MongoDB
+- Mongoose
 - GitHub
 - Postman
 

@@ -1,0 +1,67 @@
+STEP 1 — Folder kholo
+Ye folder kholo:
+bookstore-api
+
+STEP 2 — CMD open karo
+Folder ke address bar mein:
+cmd
+
+STEP 3 — Server run karo
+CMD mein ye command likho:
+..\node.exe app.js
+
+STEP 4 — Browser mein API check
+Browser mein kholo:
+http://localhost:3000/books
+
+STEP 5 — Postman open karo
+Desktop Postman app kholo.
+
+
+STEP 6 — Existing requests use karo
+Aapki tabs already open milengi usually.
+Agar new request banana ho:
+GET all books
+Method:
+GET
+URL:
+http://localhost:3000/books
+
+
+GET single book
+http://localhost:3000/books/1
+POST book
+Method:
+POST
+URL:
+http://localhost:3000/books
+
+Body → raw → JSON:
+{
+  "title": "New Book",
+  "author": "Author Name",
+  "price": 20,
+  "isbn": "123456",
+  "publishedDate": "2024-01-01"
+}
+
+
+PUT update book
+Method:
+PUT
+URL:
+http://localhost:3000/books/1
+
+
+DELETE book
+Method:
+DELETE
+URL:
+http://localhost:3000/books/1
+
+
+TEP 8 — GitHub par push karna ho
+CMD mein:
+git add .
+git commit -m "updated project"
+git push
