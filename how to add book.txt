@@ -1,0 +1,34 @@
+how to add books
+STEP 1
+POST
+
+STEP 2
+http://localhost:3000/books
+
+STEP 3
+Body → raw → JSON
+{
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "price": 20,
+  "isbn": "1234567890",
+  "publishedDate": "2018-10-16"
+}
+
+STEP 4
+Send
+
+
+STEP 5
+GET 
+http://localhost:3000/books
+Copy ID from GET Response
+
+STEP 6
+PUT
+http://localhost:3000/books/YOUR_ID
+6a1035b1c0e38a870467cbe9
+
+STEP 7
+DELETE
+http://localhost:3000/books/YOUR_ID
