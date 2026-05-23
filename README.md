@@ -63,3 +63,15 @@ DELETE /books/:id
 }
 ```
 Live API deployed on Vercel.
+
+---
+
+## Live API
+
+https://bookstore-api-kappa.vercel.app/books
+
+---
+
+## GitHub Repository
+
+https://github.com/mabmanzoor/bookstore-api
